@@ -50,7 +50,7 @@ DualSTN/
 For other functions like continue training, please refer the code at (base_options.py)
 
 ### Pretrained checkpoints
-We provide the pretrained checkpoints for METR-LA, PeMS-Bay, NREL, and Beijing-Air. The checkpoints are stored at [checkpoints](https://drive.google.com/drive/folders/1TjaqX_2xi1hVkFwWhah9NIIUGLmpciZf?usp=sharing). The checkpoints are named as `DualSTN_{dataset}_{timestamp}`. For example, the checkpoint for METR-LA is named as `DualSTN_metrla_20210725T160246`. The checkpoints are trained with the same hyperparameters as in the paper.
+We provide the pretrained checkpoints for METR-LA, PeMS-Bay, NREL, and Beijing-Air. The checkpoints are stored at [checkpoints](https://drive.google.com/drive/folders/1TjaqX_2xi1hVkFwWhah9NIIUGLmpciZf?usp=sharing). The checkpoints are named as `DualSTN_{dataset}_{timestamp}`. For example, the checkpoint for METR-LA is named `DualSTN_20220912T165919`. The checkpoints are trained with the same hyperparameters as in the paper.
 ## Acknowledge
 This framework is largely based on [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 Some parts of the code are adopted from [IGNNK](https://github.com/Kaimaoge/IGNNK).
